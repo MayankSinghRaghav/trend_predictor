@@ -1,0 +1,27 @@
+# Core dependencies
+pandas
+numpy
+scikit-learn
+
+# YouTube API
+google-api-python-client
+
+# Google Trends
+pytrends
+
+# NLP + Transformers
+transformers
+sentence-transformers
+keybert
+spacy
+nltk
+
+# Optional UI
+streamlit
+
+# Web scraping (in case you expand to Amazon, Flipkart etc.)
+beautifulsoup4
+requests
+
+# For scheduling (optional)
+schedule
