@@ -5,7 +5,7 @@ from googleapiclient.discovery import build
 # Initialize BERT model for keyword extraction
 kw_model = KeyBERT(model='all-MiniLM-L6-v2')
 
-API_KEY = "AIzaSyAeRc_7gXfSui2G7GmMTRsNqitSEhAiFA4"
+API_KEY = "Enter your API key"
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 def search_youtube_videos(query, max_results=20):
